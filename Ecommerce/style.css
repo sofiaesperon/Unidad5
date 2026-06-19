@@ -1,0 +1,28 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+body{
+    background-color: #f9ffa6;
+}
+.item {
+  background-color: #150a44;
+  /*height: 200px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    color: #cf0b6d;
+}

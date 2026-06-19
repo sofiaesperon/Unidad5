@@ -7,7 +7,7 @@ body{
     background-color: #f9ffa6;
 }
 .item {
-  background-color: #150a44;
+  background-color: #f9ffa6;
   /*height: 200px;*/
   display: flex;
   flex-direction: column;
@@ -15,14 +15,27 @@ body{
   justify-content: center;
   color: white;
   font-size: 2rem;
-  border-radius: 8px;
+  border-radius: 10px;
+  :hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
 }
 img{
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
+
 h1{
     text-align: center;
     color: #cf0b6d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
 }
+p{
+    text-align: center;
+    color: #ffa238;
+    font-size: 1.2rem;
+}
+
